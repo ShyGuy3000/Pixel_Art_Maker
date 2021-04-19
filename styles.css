@@ -1,19 +1,31 @@
+@font-face {
+  font-family: "VT323";
+  src: url(fonts/VT323-Regular.ttf) format('truetype');
+}
+
 body {
     text-align: center;
 }
 
 h1 {
-    font-family: Monoton;
+    font-family: Monoton, monospace;
     font-size: 70px;
     margin: 0.2em;
 }
 
 h2 {
+    font-family: 'VT323', monospace;
+    font-size: 2.0em;
     margin: 1em 0 0.25em;
 }
 
 h2:first-of-type {
     margin-top: 0.5em;
+}
+
+form {
+    font-family: 'VT323', monospace;
+    font-size: 1.5em;
 }
 
 table,
